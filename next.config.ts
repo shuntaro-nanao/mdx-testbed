@@ -15,6 +15,8 @@ const nextConfig: NextConfig = {
   experimental: {
     mdxRs: true,
   },
+  distDir: '.next',
+  dir: 'src',
 };
 
 export default withMDX(nextConfig);
