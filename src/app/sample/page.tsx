@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 export default async function SamplePage() {
-  const filePath = path.join(process.cwd(), 'src/app/sample/content.mdx')
+  const filePath = path.join(process.cwd(), 'src/app/sample/context01.mdx')
   const source = fs.readFileSync(filePath, 'utf8')
 
   return (
